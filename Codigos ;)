@@ -1,0 +1,86 @@
+def stressed_desserts():
+  print("¿Cual es tu nombresillo")
+  nombre = input()
+  print("genial, escribe una palabra", nombre)
+  palabra = input()
+  print("invertire tu palabra =)")
+  palabra_invertida= palabra[::-1]
+  print(palabra_invertida)
+
+stressed_desserts()
+
+def funcion_feliz():
+  print("¿Cuál es tu nombre?")
+  nombre = input()
+  print("Hola carilla de bolillo", nombre)
+  print("Inserta un número, el que quieras")
+  numero = input()
+  operacion = int(numero) + 12
+  print("Tu numero más 12 es:", operacion)
+
+
+funcion_feliz()
+
+def area_de_rectangulo():
+  print("holaaa busquemos el area y el perimetro de un rectangulo :)")
+  palabra= input()
+  print("va, dame la longitud y el ancho del rectangulo")
+  longitud= input()
+  ancho= input()
+  print("genial, te dare tu area")
+  operacion= int(longitud)*int(ancho)
+  print(operacion)
+  print("ahora te dare tu perimetro")
+  operacion= int(longitud)*2+int(ancho)*2
+  print(operacion)
+area_de_rectangulo()
+
+
+def temperatura():
+  print("hola, convertiremos grados celsius a fahrenheit")
+  print("inserte los grados celsius")
+  celsius= input()
+  print("los grados fahrenheit son :)")
+  operacion= int(celsius)*1.8+32
+  print(operacion)
+
+temperatura()
+
+
+def convertidor_divisas():
+  print("holaaa te ayudare a saber cuanto equivalen tus dolares en euros")
+  palabra=input
+  print("coloque el numero de dolares")
+  dolares= input()
+  print("ahora te dire cuantos euros tendrias si cambiaras tus dolares")
+  operacion= int(dolares)*.93
+  print(operacion)
+
+convertidor_divisas()
+
+
+def calculador_propinas():
+  print("hola te ayudare a saber cuanto debes pagar incluyendo la propina que deseas") 
+  print("cuanto debes de pagar")
+  pago= input()
+  print("cuanto propina quieres agregar")
+  propina= input()
+  print("super, te dire cuanto debes de pagar :) ")
+  operacion= int(pago)+int(propina)
+  print(operacion)
+
+calculador_propinas()
+
+def perrito():
+  print("holaaaa :), lo ayudare a obtener el IMC de su perrito")
+  palabra= input()
+  print("genial, coloque el peso regular del perrito")
+  peso= input()
+  print("va, ahora coloque la altura del perrito")
+  altura= input()
+  print("le dare el IMC de su perrito")
+  operacion= int(peso)/int(altura)**2
+  print(operacion)
+
+perrito() 
+
