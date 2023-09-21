@@ -1,0 +1,48 @@
+def suma(a,b):
+  x= a+b
+  return x
+
+def resta(a,b):
+  x= a-b
+  return x
+print("deme el primer numero")
+a= int(input())
+print("deme el segundo numero")
+b= int(input())
+print("la suma da", suma(a,b), "y la resta da", resta(a,b))
+
+#1 ronda
+
+def division(a,b):
+  x= a/b
+  return x
+
+def multi(a,b):
+  x= a*b
+  return x
+print("deme un numero")
+a= int(input())
+print("deme otro numero")
+b= int(input())
+print("la division da", division(a,b), "y la multi da", multi(a,b))
+
+#2 ronda
+
+def conversion():
+  print("cantidad de kilometros que quieras convertir")
+  kilometros=input()
+  print("te dare tus kilometros en metros")
+  metros=int(kilometros)*1000
+  print("el resultado es",(metros))
+conversion()
+
+def area_triangulo(base,altura):
+  x= (base*altura)/2
+  return x
+print("deme la base de un triangulo")
+base= int(input())
+print("deme la altura del triangulo")
+altura= int(input())
+print("su area de tu triangulo es", area_triangulo(base,altura))
+
+#4 ronda
